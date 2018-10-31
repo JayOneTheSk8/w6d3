@@ -1,0 +1,44 @@
+/* PHASE 11: Icons */
+[class*='icon-'] {
+  display: inline-block;
+  background-image: url("../images/sprite.png");
+  background-size: 25px 250px;
+  width: 25px;
+  height: 0px;
+  overflow: hidden;
+  padding-top: 25px;
+}
+
+.icon-comment {
+
+}
+
+.icon-reblog {
+  background-position: 0 -101px;
+}
+
+.icon-favorite {
+  background-position: 0 -51px;
+}
+
+.icon-comment:hover {
+  background-position: 0 -25px
+}
+
+.icon-reblog:hover {
+  background-position: 0 -126px;
+}
+
+.icon-favorite:hover {
+  background-position: 0 -76px;
+}
+
+[class*='icon-small'] {
+  display: inline-block;
+  background-image: url("../images/sprite.png");
+  background-size: 25px 250px;
+  width: 25px;
+  height: 0px;
+  overflow: hidden;
+  padding-top: 25px;
+}
